@@ -10,8 +10,8 @@ const CTA = () => {
             An enterprise template to ramp up your company website
           </SectionHeader>
 
-          <form>
-            <input placeholder="Your email address" />
+          <form onSubmit={(e) => e.preventDefault()}>
+            <input placeholder="Your email address" required />
 
             <button>Start now</button>
           </form>
