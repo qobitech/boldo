@@ -117,6 +117,7 @@ export const OurValuesSection = styled.div`
 
       .description {
         margin-bottom: 72px;
+        color: #f1f1f1;
       }
 
       @media (max-width: 1200px) {
@@ -144,11 +145,13 @@ export const OurValuesSection = styled.div`
 
         .text-content {
           h5 {
-            // font-size: 28px;
-            // line-height: 48px;
             font-size: clamp(1.25rem, 1rem + 1.5vw, 1.75rem);
             line-height: clamp(2rem, 1.8rem + 1.5vw, 3rem);
             margin-bottom: 16px;
+          }
+
+          p {
+            color: #f1f1f1;
           }
         }
 
@@ -267,8 +270,6 @@ export const OurNumbers = styled.div`
 
     .number-item {
       h1 {
-        // font-size: 96px;
-        // line-height: 56px;
         font-size: clamp(3rem, -0.875rem + 8.333vw, 6rem);
         line-height: clamp(2rem, 2.8rem + 2vw, 3.5rem);
         margin-bottom: 32px;
@@ -276,8 +277,6 @@ export const OurNumbers = styled.div`
       }
 
       p {
-        // font-size: 24px;
-        // line-height: 36px;
         font-size: clamp(0.8rem, -0.875rem + 6.333vw, 1.5rem);
         line-height: clamp(1rem, 2.8rem + 2vw, 2.25rem);
         color: #f1f1f1;
@@ -291,8 +290,6 @@ export const OurNumbers = styled.div`
       gap: 70px;
 
       .number-item {
-        //   font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
-        //   line-height: clamp(3.2rem, 2.8rem + 2vw, 4.5rem);
         h1 {
           margin-bottom: 20px;
         }
@@ -387,8 +384,6 @@ export const HeroSection = styled.div`
     text-align: center;
 
     h1 {
-      // font-size: 64px;
-      // line-height: 72px;
       font-size: clamp(2.5rem, -0.875rem + 8.333vw, 4rem);
       line-height: clamp(3rem, 2.8rem + 2vw, 4.5rem);
       color: #ffffff;
@@ -409,21 +404,13 @@ export const HeroSection = styled.div`
 `
 
 export const Paragraph = styled.p`
-  //   font-size: 20px;
-  //   line-height: 32px;
-  //   font-size: clamp(1rem, -0.875rem + 8.333vw, 1.25rem);
-  //   line-height: clamp(1.5rem, -0.875rem + 8.333vw, 2rem);
   font-size: clamp(0.7rem, 0.9rem + 1vw, 1.25rem);
   line-height: clamp(2rem, 1.4rem + 1vw, 3rem);
   font-family: OpenSans_Regular;
 `
 
 export const SectionHeader = styled.h2`
-  // font-size: 48px;
-  // line-height: 72px;
   font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
   line-height: clamp(3.2rem, 2.8rem + 2vw, 4.5rem);
-  //   line-height: clamp(3.2rem, -0.875rem + 8.333vw, 4.5rem);
-  //   font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
   font-family: Manrope_Light;
 `
