@@ -166,7 +166,7 @@ const Section = styled.div`
       background: #65e4a3;
       color: #0a2640;
       font-size: 13px;
-      font-family: Manrope_Bold;
+      font-family: OpenSans_Bold;
       line-height: 28px;
       padding: 1px 14px;
       border-radius: 120px;

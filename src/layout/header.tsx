@@ -65,12 +65,14 @@ const Wrapper = styled.div`
     align-items: center;
     gap: 40px;
     transition: all 0.3s ease;
+    font-family: OpenSans_Regular;
 
     li {
       list-style-type: none;
 
       a {
         font-size: 16px;
+        font-family: OpenSans_Medium;
         color: #ffffff;
         cursor: pointer;
         &:hover {
@@ -82,7 +84,7 @@ const Wrapper = styled.div`
     button {
       padding: 8px 40px;
       background: #ffffff;
-      font-family: Manrope_Bold;
+      font-family: OpenSans_Bold;
       font-size: 16px;
       color: #0a2640;
       border-radius: 24px;

@@ -57,7 +57,7 @@ export const CallToActionSection = styled.div`
         border: none;
         border-radius: 240px;
         font-size: 18px;
-        font-family: Manrope_Bold;
+        font-family: OpenSans_Bold;
         padding: 16px 56px;
         color: #0a2640;
         background: #65e4a3;

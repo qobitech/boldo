@@ -29,6 +29,20 @@
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: 'OpenSans_Medium';
+  src: url('./assets/fonts/OpenSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans_Bold';
+  src: url('./assets/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
 
 :root {
   --primary-color: #e5f9eb;
