@@ -1,6 +1,11 @@
 import AppProviders from './app-provider'
 import './index.css'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import {
+  Navigate,
+  Route,
+  BrowserRouter as Router,
+  Routes
+} from 'react-router-dom'
 import { ReactLazyPreload, routes } from './routes/route-component'
 import PublicRoute from './routes/public-route'
 import { Suspense } from 'react'
@@ -31,6 +36,7 @@ const App = () => {
         <AppProviders>
           <Routes>
             <Route path="/" element={<PublicRoute />}>
+              <Route index element={<Navigate to="/about" replace />} />
               {routes.map(({ path, Component }) => (
                 <Route path={path} element={<Component />} key={path} />
               ))}
