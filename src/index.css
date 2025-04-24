@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Manrope_Bold';
+  src: url('./assets/fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_Medium';
+  src: url('./assets/fonts/Manrope-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_Regular';
+  src: url('./assets/fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_SemiBold';
+  src: url('./assets/fonts/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_Light';
+  src: url('./assets/fonts/Manrope-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_ExtraBold';
+  src: url('./assets/fonts/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope_ExtraLight';
+  src: url('./assets/fonts/Manrope-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #e5f9eb;
+}
+
+html,
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope_Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
