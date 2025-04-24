@@ -7,24 +7,8 @@
 }
 
 @font-face {
-  font-family: 'Manrope_Medium';
-  src: url('./assets/fonts/Manrope-Medium.ttf') format('truetype');
-  font-weight: normal;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Manrope_Regular';
   src: url('./assets/fonts/Manrope-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Manrope_SemiBold';
-  src: url('./assets/fonts/Manrope-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-display: swap;
   font-style: normal;
@@ -39,16 +23,8 @@
 }
 
 @font-face {
-  font-family: 'Manrope_ExtraBold';
-  src: url('./assets/fonts/Manrope-ExtraBold.ttf') format('truetype');
-  font-weight: normal;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Manrope_ExtraLight';
-  src: url('./assets/fonts/Manrope-ExtraLight.ttf') format('truetype');
+  font-family: 'OpenSans_Regular';
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-display: swap;
   font-style: normal;

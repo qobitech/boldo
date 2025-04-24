@@ -415,6 +415,7 @@ export const Paragraph = styled.p`
   //   line-height: clamp(1.5rem, -0.875rem + 8.333vw, 2rem);
   font-size: clamp(0.7rem, 0.9rem + 1vw, 1.25rem);
   line-height: clamp(2rem, 1.4rem + 1vw, 3rem);
+  font-family: OpenSans_Regular;
 `
 
 export const SectionHeader = styled.h2`

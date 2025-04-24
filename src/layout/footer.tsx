@@ -95,6 +95,7 @@ const FooterWrapper = styled.footer`
 
     p {
       font-size: 16px;
+      font-family: OpenSans_Regular;
     }
   }
 `
@@ -121,6 +122,7 @@ const Section1 = styled.div`
   p {
     font-size: 16px;
     line-height: 28px;
+    font-family: OpenSans_Regular;
   }
 `
 
@@ -133,6 +135,7 @@ const Section = styled.div`
   h3 {
     margin-bottom: 40px;
     color: #000000;
+    font-family: OpenSans_Regular;
   }
 
   ul {
@@ -152,6 +155,7 @@ const Section = styled.div`
       font-size: 16px;
       color: #777777;
       text-decoration: none;
+      font-family: OpenSans_Regular;
       &:hover {
         color: #000;
       }

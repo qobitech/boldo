@@ -102,8 +102,16 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 1200px) {
+    padding: 15px 0;
+
     .content {
       width: 95%;
+    }
+
+    .logo-container {
+      svg {
+        width: 80px;
+      }
     }
 
     .mobile-menu {
