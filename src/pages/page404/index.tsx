@@ -8,7 +8,9 @@ const Page404 = () => {
   return (
     <Wrapper>
       <img src={pg404} alt="page 404" />
+
       <p>Sorry for the inconvenience</p>
+
       <button onClick={() => navigate(pageurl.ABOUT)}>
         Back to about page
       </button>

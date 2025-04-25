@@ -74,7 +74,10 @@ const Footer = () => {
         </FooterContent>
 
         <div className="copy-right">
-          <p>&copy; All rights reserved</p>
+          <p>
+            &copy; {new Date().getFullYear()} Franklyn Edekobi. Assessment
+            project. Not for commercial use.
+          </p>
         </div>
       </ContainerClass>
     </FooterWrapper>

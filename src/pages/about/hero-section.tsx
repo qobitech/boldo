@@ -28,9 +28,13 @@ const Hero = () => {
       <ContainerClass>
         <GridWrapper>
           <Image className="item item-a" src={hero1} alt="hero 1" />
+
           <Image className="item item-b" src={hero2} alt="hero 2" />
+
           <Image className="item item-c" src={hero3} alt="hero 3" />
+
           <Image className="item item-d" src={hero4} alt="hero 4" />
+
           <Image className="item item-e" src={hero5} alt="hero 5" />
         </GridWrapper>
       </ContainerClass>

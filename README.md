@@ -45,3 +45,13 @@ React Testing with Vite:
 Index DB:
 
 [Building Resilient React Apps: Offline Sync for Unstable Networks](https://medium.com/@edekobifrank/building-resilient-react-apps-offline-sync-for-unstable-networks-2374e91f597b)
+
+# Disclaimer
+
+This project was developed as part of an assessment. All rights are reserved by the author. Commercial use or deployment is not permitted without prior written approval.
+
+## License & Usage Notice
+
+This project is copyrighted © 2025 Franklyn Edekobi.
+
+It was created for assessment purposes only and may not be used, published, or deployed commercially without permission.
