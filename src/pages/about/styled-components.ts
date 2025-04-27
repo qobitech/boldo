@@ -10,11 +10,12 @@ export const CallToActionSection = styled.div`
   background-size: cover;
   background-position: center;
   border-radius: 12px;
-  height: 391px;
+  height: auto;
   width: 100%;
   padding: 72px 0 80px;
   text-align: center;
   box-sizing: border-box;
+
   .content {
     max-width: 716px;
     width: 90%;
