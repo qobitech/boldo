@@ -70,6 +70,25 @@ body * {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@supports (-webkit-touch-callout: none) {
+  html,
+  body {
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased; /* For Safari */
+    -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
+    -webkit-letter-spacing: 0.5px !important;
+    -moz-letter-spacing: 0.5px !important;
+    letter-spacing: 0.5px !important;
+    -webkit-text-stroke: thin;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    font-synthesis: none;
+    font-feature-settings: 'kern';
+    backface-visibility: hidden;
+    text-anchor: middle;
+  }
+}
+
 header {
   padding: 1rem;
 }
